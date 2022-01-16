@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Shadows Into Light', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#top {
+    font-size: 1.5em;
+    max-width: 1000px;
+    padding: 0 4%;
+}
+
+#home {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(background.jpg);
+    min-height: 100vh;
+    margin: 0;
+}
+
+#wrapper {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#wrapper p {
+    font-size: 1.25rem;
+    margin: 10px 0 42px;
+}
+
+#page-title {
+    font-size: 5rem;
+    font-family: 'philosopher' sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
